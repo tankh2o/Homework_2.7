@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
         List<Integer> nums = new ArrayList<>(List.of(6, 1, 1, 2, 2, 3, 6, 5, 3, 4, 4, 5));
 
         System.out.println(" Задание 1");
