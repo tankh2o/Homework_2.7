@@ -2,12 +2,14 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
         List<Integer> nums = new ArrayList<>(List.of(6, 1, 1, 2, 2, 3, 6, 5, 3, 4, 4, 5));
 
         System.out.println(" Задание 1");
         oddNumbers(nums);
         System.out.println("\n Задание 2");
         evenNumbers(nums);
+
 
         List<String> words = new ArrayList<>(List.of("до", "ми", "соль", "до", "до", "соль", "ми", "до", "соль", "соль", "ми", "до"));
         System.out.println("\n Задание 3");
